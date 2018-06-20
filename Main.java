@@ -18,7 +18,7 @@ public class Main {
 		}
 	}
 
-	static boolean isWS(int n) { //pangduanwanshu
+	static boolean isWS(int n) { 
 		int a = 0;
 		for (int i = 1; i <= n / 2; i++) {
 			if (n % i == 0) {
